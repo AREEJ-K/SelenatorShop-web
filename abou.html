@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us - Selenator Shop</title>
+  <style>
+    body {
+      background-color: #E4D8DC;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    #subheader {
+      width: 100%;
+      height: 30px;
+      background: #FFE3E3;
+      color: #93B5C6;
+      margin-top: -15px;
+    }
+
+    #subheader p {
+      float: left;
+      margin-top: 7px;
+    }
+
+    #subheader a {
+      float: right;
+      line-height: 30px;
+      color: #93B5C6;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    #main-header {
+      width: 100%;
+      height: 100px;
+      background: #93B5C6;
+      float: left;
+      margin-top: -15px;
+    }
+
+    #logo {
+      width: 250px;
+      margin-top: 10px;
+      float: left;
+    }
+
+    #ist {
+      color: #FFE3E3;
+      font-size: 45px;
+      font-weight: bold;
+      margin-left: 15px;
+      font-family: cursive;
+    }
+
+    #navigation {
+      width: 100%;
+      height: 35px;
+      background: #C9CCD5;
+      float: left;
+    }
+
+    nav a {
+      margin-left: 35px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #FFCACA;
+      transition: all 0.5s ease;
+    }
+
+    h1 {
+      text-align: center;
+      color: #93B5C6;
+      font-family: 'Comic Sans MS', cursive;
+      margin: 40px 0 20px;
+    }
+
+    .about-box {
+      background-color: #FFE3E3;
+      padding: 25px;
+      width: 80%;
+      margin: 0 auto;
+      border-radius: 10px;
+      font-size: 18px;
+      color: #555;
+    }
+
+    .image-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 30px 10%;
+    }
+
+.image-grid img {
+  width: 100%;
+  height: 300px;
+  object-fit: contain; /* بدل cover */
+  background-color: white; /* لون خلفية لو الصورة ما غطت كامل الإطار */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+    .image-grid img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <div id="header">
+      <div id="subheader">
+        <div class="container">
+          <p>Here your place to pay from Selenator shop</p>
+        </div>
+      </div>
+
+      <div id="main-header">
+        <div id="logo">
+          <span id="ist">Selenator</span>
+        </div>
+      </div>
+
+      <div id="navigation">
+        <nav class="container">
+        <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="order.html">Contact Us</a>
+          <a href="abou.html">About Us</a>
+        </nav>
+      </div>
+    </div>
+
+    <h1>About Us</h1>
+    <div class="about-box">
+      <p>Welcome to <strong>Selenator Shop</strong> – your #1 destination for everything related to the queen herself, <strong>Selena Gomez</strong>! 💖</p>
+      <p>This shop was created with love for all Selenators in the Arab world and beyond. Here, you’ll find exclusive fan-made products like t-shirts, hoodies, caps, CDs, and more!</p>
+      <p>We believe being a fan of Selena is not just admiration – it’s a lifestyle. That’s why we carefully design our items with high quality and style, so you can show your love wherever you go.</p>
+      <p>Thank you for supporting us. We hope you enjoy your shopping experience! 🛍️✨</p>
+    </div>
+
+    <!-- Selena Images -->
+    <div class="image-grid">
+      <img src="sel.jpg" alt="Selena Gomez 1" />
+      <img src="sele.jpg" alt="Selena Gomez 2" />
+      <img src="slo.jpg" alt="Selena Gomez 3" />
+    </div>
+
+  </div>
+
+</body>
+</html>

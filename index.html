@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Home - Selenator Shop</title>
+  <style>
+        body {
+      background-color: #E4D8DC;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      width: 90%;
+      margin: 0 auto;
+    }
+
+    #subheader {
+      width: 100%;
+      height: 30px;
+      background: #FFE3E3;
+      color: #93B5C6;
+      margin-top: -15px;
+    }
+
+    #subheader p {
+      float: left;
+      margin-top: 7px;
+    }
+
+    #subheader a {
+      float: right;
+      line-height: 30px;
+      color: #93B5C6;
+      text-decoration: none;
+      margin-left: 30px;
+    }
+
+    #main-header {
+      width: 100%;
+      height: 100px;
+      background: #93B5C6;
+      float: left;
+      margin-top: -15px;
+    }
+
+    #logo {
+      width: 250px;
+      margin-top: 10px;
+      float: left;
+    }
+
+    #ist {
+      color: #FFE3E3;
+      font-size: 45px;
+      font-weight: bold;
+      margin-left: 15px;
+      font-family: cursive;
+    }
+
+    #navigation {
+      width: 100%;
+      height: 35px;
+      background: #C9CCD5;
+      float: left;
+    }
+
+    nav a {
+      margin-left: 35px;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      color: #FFCACA;
+      transition: all 0.5s ease;
+    }
+
+
+    /* الصورة الرئيسية */
+    .main-image {
+      display: block;
+      width: 100%;
+      max-width: 1280px;
+      height: auto;
+      margin: 0 auto 40px auto;
+      border-radius: 6px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    }
+  </style>
+
+  <!-- SweetAlert مكتبة -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script>
+    window.onload = function() {
+      swal("Welcome to Selenator!");
+    }
+  </script>
+</head>
+
+<body>
+
+  <div id="wrapper">
+    <header id="header">
+      <div id="subheader">
+        <div class="container">
+          <p>Here your place to pay from Selenator shop</p>
+          <!-- لو حبيت تضيف روابط أو أشياء هنا، حطها -->
+        </div>
+      </div>
+
+      <div id="main-header">
+        <div id="logo">
+          <span id="ist">Selenator</span>
+        </div>
+      </div>
+
+     <div id="navigation">
+        <nav class="container">
+        <a href="index.html">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="order.html">Contact Us</a>
+          <a href="abou.html">About Us</a>
+        </nav>
+      </div>
+    </div>
+
+
+    </header>
+
+    <main class="container">
+      <img src="MYSELE.png" alt="Selena pics" class="main-image" />
+    </main>
+
+  </div>
+
+</body>
+</html>
+
